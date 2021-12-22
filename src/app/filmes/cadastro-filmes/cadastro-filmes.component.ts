@@ -42,7 +42,7 @@ export class CadastroFilmesComponent implements OnInit {
 
     });
 
-    this.generos = ['Ação', 'Romance', 'Aventura', 'Terror', 'Ficção cientifica', 'Comédia', 'Drama'];
+    this.generos = this.filmeService.listaDeGeneros();
 
   }
 
