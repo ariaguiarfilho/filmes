@@ -31,12 +31,12 @@
     </mat-card-header>
     <img mat-card-image [src]="filme.urlFoto || semImagem">
     <mat-card-content>
-      <p>
-        {{filme.descricao}}
+      <p class="quebrar-linha">
+        {{filme.descricao || 'Nenhuma descrição informada'}}
       </p>
     </mat-card-content>
     <mat-card-actions>
-      <button color="accent" (click)="open()" mat-raised-button>ABRIR</button>
+      <button color="accent" (click)="abrirFilme(filme.id)" mat-raised-button>ABRIR</button>
     </mat-card-actions>
   </mat-card>
 

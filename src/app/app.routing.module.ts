@@ -1,3 +1,4 @@
+import { VisualizarFilmesComponent } from './filmes/visualizar-filmes/visualizar-filmes.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { FilmesModule } from './filmes/filmes.module';
@@ -7,9 +8,9 @@ import { ListagemFilmesComponent } from './filmes/listagem-filmes/listagem-filme
 const routes: Routes = [
 
   {
-      path: '',
-      redirectTo: 'filmes',
-      pathMatch: 'full'
+    path: '',
+    redirectTo: 'filmes',
+    pathMatch: 'full'
   },
   {
     path: 'filmes',
@@ -20,9 +21,21 @@ const routes: Routes = [
       },
       {
         path: 'cadastro',
-        component: CadastroFilmesComponent,
-        pathMatch: 'full'
-      }
+        children: [
+          {
+            path: '',
+            component: CadastroFilmesComponent
+          },
+          {
+            path: ':id',
+            component: CadastroFilmesComponent
+          }
+        ]
+      },
+      {
+        path: ':id',
+        component: VisualizarFilmesComponent
+      },
     ]
   },
   { path: '**', redirectTo: 'filmes' },

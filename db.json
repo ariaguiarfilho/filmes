@@ -61,16 +61,6 @@
       "genero": "Aventura"
     },
     {
-      "id": 7,
-      "titulo": "Capitã Marvel",
-      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_UX182_CR0,0,182,268_AL_.jpg",
-      "dtLancamento": "2019-03-07T03:00:00.000Z",
-      "descricao": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
-      "nota": 6.9,
-      "urlIMDb": "https://www.imdb.com/title/tt4154664/",
-      "genero": "Ação"
-    },
-    {
       "id": 8,
       "titulo": "Shazam!",
       "urlFoto": "https://m.media-amazon.com/images/M/MV5BYTE0Yjc1NzUtMjFjMC00Y2I3LTg3NGYtNGRlMGJhYThjMTJmXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_UX182_CR0,0,182,268_AL_.jpg",
@@ -111,14 +101,34 @@
       "id": 11
     },
     {
-      "titulo": "sem imagem",
-      "urlFoto": "",
-      "dataLancamento": "2021-12-22T03:00:00.000Z",
-      "descricao": "teste\nteste\nteste",
-      "nota": 0,
-      "urlImdb": "",
-      "genero": "Romance",
+      "titulo": "Mistério no Mediterrâneo",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BNTA2YTI5YjUtZWI4Zi00NWQ5LWFiYmEtOTBmNTUyNDAwNjllXkEyXkFqcGdeQXVyNjIzNzM4NzA@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dtLancamento": "2019-06-14T03:00:00.000Z",
+      "descricao": "A New York cop and his wife go on a European vacation to reinvigorate the spark in their marriage, but end up getting framed and on the run for the death of an elderly billionaire.",
+      "nota": 6,
+      "urlImdb": "https://www.imdb.com/title/tt1618434/",
+      "genero": "Comédia",
       "id": 12
+    },
+    {
+      "id": 13,
+      "titulo": "Star Wars: A Ascensão Skywalker9999",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dtLancamento": "2021-12-16T03:00:00.000Z",
+      "descricao": "In Theaters Now\nAfter Palpatine mysteriously returns, the Resistance faces the First Order once more in the final chapter of the Skywalker saga.",
+      "nota": 6.9,
+      "urlImdb": null,
+      "genero": "Aventura"
+    },
+    {
+      "titulo": "8888888888888888",
+      "urlFoto": "https://m.media-amazon.com/images/M/MV5BOTlhYTVkMDktYzIyNC00NzlkLTlmN2ItOGEyMWQ4OTA2NDdmXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+      "dtLancamento": "2021-12-08T03:00:00.000Z",
+      "descricao": "asdasdasd\nadsasdasd\nadadasd\nadasd",
+      "nota": 4,
+      "urlImdb": null,
+      "genero": "Aventura",
+      "id": 15
     }
   ]
 }

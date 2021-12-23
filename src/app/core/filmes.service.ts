@@ -20,11 +20,28 @@ export class FilmesService {
     return this.http.post<Filme>(url, filme);
   }
 
+  editar(filme: Filme): Observable<Filme> {
+
+    return this.http.put<Filme>(url+filme.id, filme);
+  }
+
   listar(configParams: ConfigParams): Observable<Filme[]> {
 
     let httpParams = this.configParamService.configurarParametros(configParams);
     return this.http.get<Filme[]>(url, { params: httpParams });
   }
+
+
+  consultar(id: number): Observable<Filme> {
+    return this.http.get<Filme>(url + id);
+  }
+
+
+  excluir(id: number): Observable<void> {
+    return this.http.delete<void>(url + id);
+  }
+
+
 
 
   listaDeGeneros(): Array<string> {

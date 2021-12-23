@@ -17,8 +17,10 @@
 
 .filtro-listagem{
   width: calc(100% - 50px);
+}
 
-
+.quebrar-linha{
+  white-space: pre-line;
 }
 
 @media screen and (min-width: 525px) {
